@@ -2,7 +2,6 @@
 
 namespace Smile\EzEEPhoneFormFieldBundle\DependencyInjection;
 
-use Symfony\Component\Config\FileLocator;
 use Symfony\Component\Config\Resource\FileResource;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;

@@ -1,6 +1,6 @@
 # SmileEzEEPhoneFormFieldBundle
 
-
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/4a76bf33-98e1-49dc-ad6b-e7ca71b5bdda/mini.png)](https://insight.sensiolabs.com/projects/4a76bf33-98e1-49dc-ad6b-e7ca71b5bdda)
 
 Add new eZStudio Form Field named *Phone* displaying select field with country list
 

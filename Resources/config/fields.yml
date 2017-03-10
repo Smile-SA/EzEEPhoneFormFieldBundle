@@ -1,0 +1,18 @@
+fields:
+    phone:
+        identifier: phone
+        displayName: Phone
+        validators:
+            - { identifier: required, value: 1 }
+            - { identifier: regexp, value: '/^\+\d{1,4} \d*$/' }
+        options:
+            phones:
+                name: phones
+                type: array
+                value: %ezpublish.fieldType.ezcountry.data%
+                hidden: true
+        views:
+            basic:
+                name: Phone field
+                thumbnail: /bundles/smileezeephoneformfield/images/thumbnails/phone/basic.svg
+                template: SmileEzEEPhoneFormFieldBundle:fields:phone/basic.html.twig

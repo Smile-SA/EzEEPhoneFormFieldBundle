@@ -1,0 +1,11 @@
+{% extends 'EzSystemsFormBuilderBundle:fields:field.html.twig' %}
+
+{% block input %}
+    <select class="ezform-dropdown ezform-phone_prefix" data-id="{{ field.id }}" id="{{ field.id }}_prefix">
+        {% for phone in field.options.phones.value %}
+            <option value="{{ phone.IDC }}">{{ phone.Name }} +{{ phone.IDC }}</option>
+        {% endfor %}
+    </select>
+    {% set firstPhone = field.options.phones.value|first %}
+    <input type="text" class="ezform-field ezform-phone" id="{{ field.id }}" placeholder="+{{ firstPhone.IDC }} {{ field.placeholderText }}">
+{% endblock %}
